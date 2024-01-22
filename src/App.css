@@ -6,8 +6,7 @@
   height: 40vmin;
   pointer-events: none;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100&family=Shantell+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:ital,wght@0,100;0,900;1,900&family=Salsa&family=Shantell+Sans&display=swap');
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

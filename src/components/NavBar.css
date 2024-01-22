@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:ital,wght@0,100;0,900;1,900&family=Salsa&family=Shantell+Sans&display=swap');
 body{
-    background-color: rgb(91, 156, 241);
+    
+    /* background-color: rgb(91, 156, 241); */
     color: rgb(0, 0, 0);
 }
 .navbar{
@@ -45,10 +47,14 @@ body{
     align-items: center;
     margin-right: 20px;
     border-color: white;
+    font-style: bold;
+    color: white;
+    font-size: larger;
     width: 120px;
     height: 50px;
     border-radius: 50px;
-    background-image: linear-gradient(to right,rgb(232, 232, 232), rgb(91, 156, 241));
+    background-image: linear-gradient(to right,rgb(107, 204, 245), rgb(24, 45, 232));
+    
 }
 .WebLogo{
 
@@ -57,3 +63,22 @@ body{
     height: auto;
 }
 
+@media screen and (max-width :768px) {
+        .navbar{
+            position: relative;
+            width: 80%;
+            height: auto;
+            border-radius: 1rem;
+            top: 6rem;left: 50%;
+            z-index: 2000;
+            transform: translate(-50%);
+            flex-direction: column;
+        }
+        .navbar-options-list{
+            flex-direction: column;
+        }
+        .navbar-options-list  button
+        {
+            background-color: red;
+        }
+}
