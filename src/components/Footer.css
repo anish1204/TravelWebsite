@@ -1,0 +1,75 @@
+.Overlay{
+    margin-top: 5rem;
+    position: relative;
+    mix-blend-mode: hard-light;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(237, 242, 243, 0.091);
+}
+.Overlay video{
+    width: 100%;
+    height: 300px;
+}
+.Data{
+   
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.Data input{
+    text-align: center;
+    margin-left: 25px;
+    width: 20%;
+    border-radius: 35px;
+    float: right;
+    border-color: transparent;
+    background-color: rgba(0, 255, 255, 0.422);
+}
+.Data button{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 25px;
+    height: 45px;
+    width: 10%;
+    border-radius: 35px;
+    float: right;
+    border-color: transparent;
+    color: black;
+    border-color: transparent;
+    background-color: rgba(158, 184, 220, 0.587);
+}
+.LeftLogo{
+    justify-content: space-evenly;
+}
+.FinalInfo{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    justify-content: center;
+   
+}
+.LeftFooter{
+    height: 500px;
+    width: 50%;
+}
+.RightFooter{
+    margin-left: 5%;
+    width: 30%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.AgencySec{
+    display: flex;
+    width: 15%;
+}
+
+.PartnerSec{
+    display: flex;
+    width: 20%;
+}
+
+.LastSec{
+    display: flex;
+    width: 20%;
+}
