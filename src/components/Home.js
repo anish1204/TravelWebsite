@@ -1,5 +1,5 @@
 import React from 'react'
-import video1 from '../assets/video.mp4'
+import video1 from '../assets/video.zip'
 import './Home.css'
 import { FaFilter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
@@ -10,15 +10,15 @@ import { TbApps } from "react-icons/tb";
 import { IoLocationOutline } from "react-icons/io5";
 import { BiSolidCategoryAlt } from "react-icons/bi";
 
-import pic1 from '../assets/pic1.jpg';
-import pic2 from '../assets/pic2.jpg';
-import pic3 from '../assets/pic3.jpg';
-import pic4 from '../assets/pic4.jpg';
-import pic5 from '../assets/pic5.jpg';
-import pic6 from '../assets/pic6.jpg';
-import pic7 from '../assets/pic7.jpg';
-import pic8 from '../assets/pic8.jpg';
-import pic9 from '../assets/pic9.jpg';
+import pic1 from '../assets/pic1.webp';
+import pic2 from '../assets/pic2.webp';
+import pic3 from '../assets/pic3.webp';
+import pic4 from '../assets/pic4.webp';
+import pic5 from '../assets/pic5.webp';
+import pic6 from '../assets/pic6.webp';
+import pic7 from '../assets/pic7.webp';
+import pic8 from '../assets/pic8.webp';
+import pic9 from '../assets/pic9.webp';
 
 const Home = () => {
   return (
