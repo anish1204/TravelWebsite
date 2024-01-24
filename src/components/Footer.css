@@ -1,66 +1,98 @@
-.Overlay{
+.Overlay1{
+    /* color: white; */
+    background-color: blanchedalmond;
     margin-top: 5rem;
     position: relative;
     mix-blend-mode: hard-light;
     width: 100%;
-    height: 200px;
-    background-color: rgba(237, 242, 243, 0.091);
+    height: 350px;
+    /* background-color: rgb(2, 140, 205); */
 }
-.Overlay video{
+.Overlay1 video{
     width: 100%;
     height: 300px;
 }
+.Overlay1 h4{
+    justify-content: start !important;
+    background-color: blanchedalmond;
+}
 .Data{
-   
+    
     justify-content: center;
     display: flex;
     flex-direction: row;
 }
 .Data input{
+    
+    color: white !important;
+    border: 5px solid white;
+    font-size: larger;
     text-align: center;
     margin-left: 25px;
-    width: 20%;
+    width: 28%;
     border-radius: 35px;
     float: right;
     border-color: transparent;
-    background-color: rgba(0, 255, 255, 0.422);
+    background-color: rgba(83, 83, 83, 0.201);
 }
+/* .SendBtn
+{
+    text-align: center;
+    margin-top: 25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */
 .Data button{
+    font-style: italic;
     text-align: center;
     margin-top: 15px;
     margin-left: 25px;
-    height: 45px;
+    height: 35px;
     width: 10%;
     border-radius: 35px;
     float: right;
     border-color: transparent;
-    color: black;
+    color: rgb(255, 255, 255);
     border-color: transparent;
-    background-color: rgba(158, 184, 220, 0.587);
+    background-color: rgba(48, 48, 49, 0.751);
 }
 .LeftLogo{
-    justify-content: space-evenly;
+   
+    justify-content: space-evenly !important;
+}
+.LeftIndIcon
+{
+    /* justify-content: space-between; */
+    margin-left: 5rem;
 }
 .FinalInfo{
     display: flex;
     flex-direction: row;
-    height: 500px;
+    height: 200px;
     justify-content: center;
    
 }
 .LeftFooter{
-    height: 500px;
+    height: 200px;
     width: 50%;
 }
 .RightFooter{
+    list-style: none;
     margin-left: 5%;
     width: 30%;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
 }
+.lipoints{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px 5px 5px 5px;
+    list-style: none;
+}
 .AgencySec{
     display: flex;
+    list-style: none;
     width: 15%;
 }
 
